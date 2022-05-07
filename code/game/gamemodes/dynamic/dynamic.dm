@@ -5,7 +5,7 @@
 #define REPORT_NEG_DIVERGENCE -15
 #define REPORT_POS_DIVERGENCE 15
 
-// Are HIGH_IMPACT_RULESETs allowed to stack?
+// Denemedir. DENEMEDİR 
 GLOBAL_VAR_INIT(dynamic_no_stacking, TRUE)
 // If enabled does not accept or execute any rulesets.
 GLOBAL_VAR_INIT(dynamic_forced_extended, FALSE)
