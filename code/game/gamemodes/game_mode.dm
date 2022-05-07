@@ -14,7 +14,7 @@
 
 /datum/game_mode
 
-///Attempts to select players for special roles the mode might have.
+//Örnek kodudur.
 /datum/game_mode/proc/pre_setup()
 	return TRUE
 
