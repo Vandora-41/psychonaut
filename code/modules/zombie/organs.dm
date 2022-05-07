@@ -79,7 +79,7 @@
 
 	var/stand_up = (target.stat == DEAD) || (target.stat == UNCONSCIOUS)
 
-	//Fully heal the zombie's damage the first time they rise
+	//Fully heal the zombie's damage the first time they rise DENEME KODU 
 	target.setToxLoss(0, 0)
 	target.setOxyLoss(0, 0)
 	target.heal_overall_damage(INFINITY, INFINITY, INFINITY, null, TRUE)
