@@ -80,6 +80,7 @@
 #define SECHUD_SYNDICATE "hudsyndicate"
 
 #define SECHUD_ASSISTANT "hudassistant"
+#define SECHUD_VIP "hudvip"
 #define SECHUD_ATMOSPHERIC_TECHNICIAN "hudatmospherictechnician"
 #define SECHUD_BARTENDER "hudbartender"
 #define SECHUD_BOTANIST "hudbotanist"

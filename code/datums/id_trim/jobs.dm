@@ -98,6 +98,16 @@
 	if(CONFIG_GET(flag/assistants_have_maint_access))
 		access |= list(ACCESS_MAINT_TUNNELS)
 
+/datum/id_trim/job/vip
+	assignment = "VIP"
+	trim_state = "trim_vip"
+	sechud_icon_state = SECHUD_VIP
+	extra_access = list(ACCESS_MAINT_TUNNELS)
+	minimal_access = list(ACCESS_BRIG_ENTRANCE, ACCESS_HEADS)
+	config_job = "vip"
+	template_access = list(ACCESS_CAPTAIN, ACCESS_HOP, ACCESS_CHANGE_IDS)
+	job = /datum/job/vip
+
 /datum/id_trim/job/atmospheric_technician
 	assignment = "Atmospheric Technician"
 	trim_state = "trim_atmospherictechnician"
@@ -462,7 +472,7 @@
 	config_job = "scientist"
 	template_access = list(ACCESS_CAPTAIN, ACCESS_RD, ACCESS_CHANGE_IDS)
 	job = /datum/job/scientist
-	
+
 /datum/id_trim/job/brig_physician
 	assignment = "Brig Physician"
 	trim_state = "trim_securityofficer"
@@ -474,7 +484,7 @@
 	var/department_access = list()
 	config_job = "brig_physician"
 	template_access = list(ACCESS_CAPTAIN, ACCESS_HOS, ACCESS_CHANGE_IDS)
-	job = /datum/job/brig_physician	
+	job = /datum/job/brig_physician
 
 /// Sec officers have departmental variants. They each have their own trims with bonus departmental accesses.
 /datum/id_trim/job/security_officer
