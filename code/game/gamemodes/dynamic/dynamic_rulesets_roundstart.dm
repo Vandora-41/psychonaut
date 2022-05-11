@@ -125,10 +125,10 @@
 	)
 	required_candidates = 1
 	weight = 4
-	cost = 8
-	scaling_cost = 11
+	cost = -4
+	scaling_cost = -7
 	requirements = list(70,60,40,40,40,40,40,40,20,10)
-	antag_cap = list("denominator" = 15)
+	antag_cap = 2
 
 /datum/dynamic_ruleset/roundstart/ntagent/pre_execute(population)
 	. = ..()
@@ -149,7 +149,7 @@
 		ntagent.add_antag_datum(new_antag)
 		GLOB.pre_setup_antags -= ntagent
 	return TRUE
-	
+
 //////////////////////////////////////////
 //                                      //
 //           BLOOD BROTHERS             //
