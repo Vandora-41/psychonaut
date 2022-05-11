@@ -128,7 +128,7 @@
 	cost = -4
 	scaling_cost = -7
 	requirements = list(70,60,40,40,40,40,40,40,20,10)
-	antag_cap = 2
+	antag_cap = list("denominator" = 12)
 
 /datum/dynamic_ruleset/roundstart/ntagent/pre_execute(population)
 	. = ..()
