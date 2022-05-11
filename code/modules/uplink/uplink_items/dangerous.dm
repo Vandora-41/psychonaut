@@ -20,6 +20,14 @@
 
 // Low progression cost
 
+/datum/uplink_item/dangerous/Ntsaber
+	name = "Nanotrasen Saber SMG"
+	desc = "Fully automatic submachine gun, very robust if you have the tc for it. Can be stored in belt slot. \
+			Also comes with a supressor for your stealth needs."
+	item = /obj/item/storage/box/nano_kit/smg
+	cost = 20
+	purchasable_from = UPLINK_NANO
+
 /datum/uplink_item/dangerous/pistol
 	name = "Makarov Pistol"
 	desc = "A small, easily concealable handgun that uses 9mm auto rounds in 8-round magazines and is compatible \
@@ -46,7 +54,7 @@
 	item = /obj/item/melee/energy/sword/saber
 	cost = 8
 	purchasable_from = ~(UPLINK_CLOWN_OPS | UPLINK_NANO)
-	
+
 /datum/uplink_item/dangerous/swordnano
 	name = "Energy Sword"
 	desc = "The energy sword is an edged weapon with a blade of pure energy. The sword is small enough to be \
@@ -94,7 +102,7 @@
 	item = /obj/item/dualsaber/blue
 
 	cost = 16
-	purchasable_from = UPLINK_NANO	
+	purchasable_from = UPLINK_NANO
 
 /datum/uplink_item/dangerous/doublesword/get_discount()
 	return pick(4;0.8,2;0.65,1;0.5)
