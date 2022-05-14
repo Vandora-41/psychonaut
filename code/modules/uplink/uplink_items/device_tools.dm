@@ -112,6 +112,14 @@
 	surplus = 90
 	purchasable_from = UPLINK_NANO
 
+/datum/uplink_item/device_tools/emag
+	name = "Cryptographic Sequencer"
+	desc = "Bir borg uzerinde kullanarak, o borgun size hizmet etmesini saglayin."
+	item = /obj/item/card/emag
+	cost = 4
+	surplus = 4
+	purchasable_from = UPLINK_NANO
+
 /datum/uplink_item/device_tools/fakenucleardisk
 	name = "Decoy Nuclear Authentication Disk"
 	desc = "It's just a normal disk. Visually it's identical to the real deal, but it won't hold up under closer scrutiny by the Captain. \
