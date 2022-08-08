@@ -416,6 +416,11 @@
 	id = "comp_access_checker"
 	build_path = /obj/item/circuit_component/compare/access
 
+/datum/design/component/keyboard
+	name = "Keyboard Component"
+	id = "comp_keyboard"
+	build_path = /obj/item/circuit_component/keyboard
+
 /datum/design/compact_remote_shell
 	name = "Compact Remote Shell"
 	desc = "A handheld shell with one big button."
