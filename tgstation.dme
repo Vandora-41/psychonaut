@@ -4578,6 +4578,7 @@
 #include "code\modules\wiremod\components\atom\gps.dm"
 #include "code\modules\wiremod\components\atom\health.dm"
 #include "code\modules\wiremod\components\atom\hear.dm"
+#include "code\modules\wiremod\components\atom\keyboard.dm"
 #include "code\modules\wiremod\components\atom\matscanner.dm"
 #include "code\modules\wiremod\components\atom\pinpointer.dm"
 #include "code\modules\wiremod\components\atom\reagentscanner.dm"
