@@ -365,9 +365,6 @@
 "Do" = (
 /turf/open/indestructible/hierophant,
 /area/station/maintenance/fore/greater)
-"DG" = (
-/turf/open/lava/smooth/airless,
-/area/station/maintenance/fore/greater)
 "DH" = (
 /obj/structure/cable,
 /turf/closed/indestructible/necropolis,
@@ -463,8 +460,10 @@
 /turf/open/indestructible/necropolis/air,
 /area/station/maintenance/fore/greater)
 "LQ" = (
-/obj/structure/fans/tiny/invisible,
-/turf/open/indestructible/necropolis/air,
+/obj/structure/ladder,
+/turf/open/indestructible/necropolis{
+	init_air = 0
+	},
 /area/station/maintenance/fore/greater)
 "Mb" = (
 /obj/item/reagent_containers/hypospray/medipen/survival/luxury,
@@ -477,7 +476,9 @@
 /turf/closed/indestructible/riveted/boss,
 /area/station/maintenance/fore/greater)
 "MR" = (
-/turf/open/indestructible/necropolis,
+/turf/open/indestructible/necropolis{
+	init_air = 0
+	},
 /area/station/maintenance/fore/greater)
 "MW" = (
 /obj/item/clothing/suit/hooded/cultrobes{
@@ -619,7 +620,9 @@
 /turf/open/indestructible/necropolis/air,
 /area/station/maintenance/fore/greater)
 "UD" = (
-/turf/open/lava/smooth/lava_land_surface,
+/turf/open/lava/smooth/airless{
+	init_air = 0
+	},
 /area/station/maintenance/fore/greater)
 "UJ" = (
 /obj/item/electronics/apc,
@@ -351316,15 +351319,15 @@ yY
 yY
 yY
 IC
-Bs
-Bs
-Bs
-Bs
-Bs
-Bs
-Bs
-Bs
-Bs
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
+IC
 IC
 yY
 xA
@@ -351818,15 +351821,15 @@ yY
 yY
 yY
 IC
-DG
-DG
-DG
-DG
-DG
-DG
-DG
-DG
-DG
+UD
+UD
+UD
+UD
+UD
+UD
+UD
+UD
+UD
 IC
 yY
 yY
@@ -352320,7 +352323,7 @@ yY
 yY
 IC
 IC
-Aj
+LQ
 MR
 MR
 MR
@@ -352821,15 +352824,15 @@ IC
 yY
 yY
 IC
-DG
-DG
-DG
-DG
-DG
-DG
-DG
-DG
-DG
+UD
+UD
+UD
+UD
+UD
+UD
+UD
+UD
+UD
 MR
 IC
 yY
@@ -356343,7 +356346,7 @@ MR
 MR
 MR
 MR
-MR
+UD
 MR
 IC
 IC
@@ -358850,8 +358853,8 @@ IC
 IC
 IC
 IC
-LQ
-LQ
+IC
+IC
 IC
 IC
 IC
