@@ -804,6 +804,8 @@
 	prereq_ids = list("base")
 	design_ids = list(
 		"paicard",
+		"botpad",
+		"botpad_remote",
 	)
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 2500)
 
