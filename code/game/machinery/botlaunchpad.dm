@@ -51,7 +51,6 @@
 				to_chat(user, span_warning("There is an unidentified creature on the pad"))
 				return
 	if(bot_count == 1)
-		to_chat(user, span_warning("FIRLAA"))
 		launched_bot = possible_bot
 		podspawn(list(
 			"target" = get_turf(src),
