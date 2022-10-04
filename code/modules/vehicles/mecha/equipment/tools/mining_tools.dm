@@ -16,7 +16,7 @@
 	range = MECHA_MELEE
 	tool_behaviour = TOOL_DRILL
 	toolspeed = 0.9
-	mech_flags = EXOSUIT_MODULE_WORKING | EXOSUIT_MODULE_COMBAT
+	mech_flags = EXOSUIT_MODULE_WORKING | EXOSUIT_MODULE_COMBAT | EXOSUIT_MODULE_VOYAGER
 	var/drill_delay = 7
 	var/drill_level = DRILL_BASIC
 
