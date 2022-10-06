@@ -95,7 +95,7 @@
 	contraband = TRUE
 	contains = list(/obj/vehicle/ridden/atv,
 					/obj/item/key/atv,
-					/obj/item/clothing/suit/jacket/leather/overcoat,
+					/obj/item/clothing/suit/jacket/leather/biker,
 					/obj/item/clothing/gloves/color/black,
 					/obj/item/clothing/head/soft,
 					/obj/item/clothing/mask/bandana/skull/black)//so you can properly #cargoniabikergang
@@ -668,7 +668,7 @@
 	cost = CARGO_CRATE_VALUE * 6
 	access = ACCESS_CE
 	access_view = ACCESS_CE
-	contains = list(/obj/structure/shuttle/engine/propulsion/burst/cargo)
+	contains = list(/obj/machinery/power/shuttle_engine/propulsion/burst/cargo)
 	crate_name = "shuttle engine crate"
 	crate_type = /obj/structure/closet/crate/secure/engineering
 	special = TRUE
@@ -2170,6 +2170,16 @@
 					/obj/item/clothing/head/helmet/redtaghelm = 3,
 					/obj/item/clothing/head/helmet/bluetaghelm = 3)
 	crate_name = "laser tag crate"
+
+/datum/supply_pack/costumes_toys/knucklebones
+	name = "Knucklebones Game Crate"
+	desc = "A fun dice game definitely not invented by a cult. Consult your local chaplain regarding approved religious activity."
+	cost = CARGO_CRATE_VALUE * 2
+	contains = list(/obj/item/dice/d6 = 18,
+					/obj/item/paper/guides/knucklebone,
+					/obj/item/toy/crayon/white)
+	crate_name = "knucklebones game crate"
+	crate_type = /obj/structure/closet/crate/wooden
 
 /datum/supply_pack/costumes_toys/lasertag/pins
 	name = "Laser Tag Firing Pins Crate"

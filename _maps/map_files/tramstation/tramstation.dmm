@@ -439,8 +439,8 @@
 "aiP" = (
 /obj/structure/disposalpipe/sorting/mail{
 	dir = 1;
-	sortType = 7;
-	name = "sorting disposal pipe (Security)"
+	name = "sorting disposal pipe (Security)";
+	sortType = 7
 	},
 /turf/open/floor/iron,
 /area/station/security/office)
@@ -10389,6 +10389,14 @@
 /area/station/science/xenobiology)
 "dHv" = (
 /obj/structure/table/glass,
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/cup/beaker/cryoxadone{
+	pixel_x = 6;
+	pixel_y = 6
+	},
 /turf/open/floor/iron/dark,
 /area/station/medical/treatment_center)
 "dHw" = (
@@ -15418,6 +15426,7 @@
 "fzm" = (
 /obj/structure/table/wood,
 /obj/machinery/light/dim/directional/east,
+/obj/item/reagent_containers/cup/glass/shaker,
 /turf/open/floor/wood,
 /area/station/service/bar/backroom)
 "fzo" = (
@@ -23177,8 +23186,8 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/sorting/mail{
 	dir = 8;
-	sortType = 8;
-	name = "sorting disposal pipe (Head of Security's Office)"
+	name = "sorting disposal pipe (Head of Security's Office)";
+	sortType = 8
 	},
 /turf/open/floor/iron,
 /area/station/security/office)
@@ -33619,9 +33628,8 @@
 	icon_state = "plating"
 	},
 /obj/structure/tramwall/titanium,
-/obj/structure/shuttle/engine/propulsion/in_wall/tram{
-	dir = 4;
-	pixel_x = 32
+/obj/machinery/power/shuttle_engine/propulsion/tram{
+	dir = 4
 	},
 /turf/open/openspace,
 /area/station/hallway/primary/tram/center)
@@ -36304,6 +36312,10 @@
 	dir = 4
 	},
 /obj/structure/sign/clock/directional/north,
+/obj/item/reagent_containers/cup/beaker/large{
+	pixel_x = 6;
+	pixel_y = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/chemistry)
 "mUM" = (
@@ -36855,6 +36867,10 @@
 	},
 /obj/item/reagent_containers/dropper,
 /obj/item/reagent_containers/syringe,
+/obj/item/reagent_containers/cup/beaker/large{
+	pixel_x = 6;
+	pixel_y = 4
+	},
 /turf/open/floor/iron/white,
 /area/station/medical/pharmacy)
 "ney" = (
@@ -41647,9 +41663,8 @@
 	icon_state = "plating"
 	},
 /obj/structure/tramwall/titanium,
-/obj/structure/shuttle/engine/propulsion/in_wall/tram{
-	dir = 8;
-	pixel_x = -32
+/obj/machinery/power/shuttle_engine/propulsion/tram{
+	dir = 8
 	},
 /turf/open/openspace,
 /area/station/hallway/primary/tram/center)
@@ -58446,6 +58461,10 @@
 	dir = 6
 	},
 /obj/machinery/airalarm/directional/south,
+/obj/item/reagent_containers/cup/beaker/large{
+	pixel_x = 6;
+	pixel_y = 4
+	},
 /turf/open/floor/iron,
 /area/station/science/lab)
 "uOl" = (
@@ -63671,7 +63690,7 @@
 /obj/effect/turf_decal/trimline/yellow/warning{
 	dir = 8
 	},
-/obj/structure/shuttle/engine/propulsion{
+/obj/machinery/power/shuttle_engine/propulsion{
 	desc = "A standard reliable bluespace engine used by many forms of shuttles. This one has the bluespace core removed.";
 	name = "inactive propulsion engine"
 	},
