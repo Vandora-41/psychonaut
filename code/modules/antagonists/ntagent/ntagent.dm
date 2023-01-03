@@ -12,7 +12,8 @@
 	. = ..()
 	give_objective()
 	ntagent_equipt_items()
-	give_mindshield()
+
+
 
 /datum/antagonist/ntagent/greet()
 	. = ..()
@@ -28,6 +29,3 @@
 	NTobjec.completed = TRUE
 	NTobjec.owner = owner
 	objectives |= NTobjec
-
-/datum/antagonist/ntagent/proc/give_mindshield(mob/living/carbon/human/ntagent = owner.current)
-	ADD_TRAIT(ntagent, TRAIT_MINDSHIELD, ROUNDSTART_TRAIT)
